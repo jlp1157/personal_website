@@ -1,5 +1,2 @@
 # personal_website
-personal website
-
-
-test
+personal website for portfolio and other things
