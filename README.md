@@ -8,6 +8,7 @@ TODO:
     Links to other pages at the top
     Brief explanation of the site
     Video showcasing most recent project
+    Contact info at bottom
 - About me
     Pictures
     Interests
