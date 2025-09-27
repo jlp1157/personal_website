@@ -7,3 +7,7 @@ data = Blueprint('data', __name__,
 @data.route('/projects')
 def projects():
     return render_template('projects.html')
+
+@data.route('/aboutme')
+def projects():
+    return render_template('aboutme.html')
