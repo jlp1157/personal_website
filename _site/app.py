@@ -1,10 +1,10 @@
 from flask import Flask, render_template
-from data.routes import data
+from data import data
 
 app = Flask(__name__)
-app.secret_key = 'notsosecretkey'
 
 app.register_blueprint(data)
+app.secret_key = 'notsosecretkey'
 
 @app.route('/')
 def index():
