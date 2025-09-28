@@ -6,12 +6,12 @@ data = Blueprint('data', __name__,
 
 @data.route('/projects')
 def projects():
-    return render_template('projects.html')
+    return render_template('static.html')
 
-@data.route('projects/progress')
+@data.route('/projects/progress')
 def progress():
-    return render_template('progress.html')
+    return render_template('static.html')
 
 @data.route('/aboutme')
 def projects():
-    return render_template('aboutme.html')
+    return render_template('static.html')

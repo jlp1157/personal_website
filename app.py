@@ -4,7 +4,7 @@ from data.routes import data
 app = Flask(__name__)
 app.secret_key = 'notsosecretkey'
 
-app.register_blueprint(data)
+#app.register_blueprint(data)
 
 @app.route('/')
 def index():

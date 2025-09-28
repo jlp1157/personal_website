@@ -1,7 +1,7 @@
 <nav class="header"> ||
     <link rel="stylesheet" href="style.css"/>
     <a href="{{ url_for('index') }}">Home</a> |
-    <a href="{{ url_for('accounts.projects') }} ">Projects</a> |
+    <a href="{{ url_for('projects') }} ">Projects</a> |
     <a href="{{ url_for('data.aboutme')}}">About Me</a> ||
 </nav>
 {% with messages = get_flashed_messages() %}
